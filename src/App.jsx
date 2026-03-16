@@ -195,6 +195,17 @@ export default function App() {
   return (
     <div className="container">
       <h1>Baby Daily Movement Tracker</h1>
+      <p
+        style={{
+          color: '#475569',
+          marginTop: 0,
+          marginBottom: 16,
+          maxWidth: 720,
+        }}
+      >
+        Track movements, save notes, and keep a gentle daily log. Designed for
+        expectant and new moms with fast entry and calm visuals.
+      </p>
       <div className="card" style={{ marginBottom: '1rem' }}>
         <div
           className="row date-nav"
